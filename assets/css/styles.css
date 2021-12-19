@@ -1,0 +1,124 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+}
+
+:root {
+  --body-color: #ffffff;
+  --text-color: #18191f;
+  --primary-color: #8c30f5;
+  --content-section-color: #2ec5ce;
+  --content-section-secondary-color: #d5fafc;
+  --line-gradient-color: linear-gradient(
+    90deg,
+    rgba(192, 204, 218, 0.1) 0%,
+    rgba(192, 204, 218, 0.6) 50.38%,
+    rgba(192, 204, 218, 0.1) 100%
+  );
+}
+
+html,
+body {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  color: var(--text-color);
+}
+
+header {
+  height: 100vh;
+  background-image: url(../images/Background.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.navbar {
+  height: 72px;
+  background: none;
+}
+
+.navbar .navbar-brand {
+  justify-content: center;
+  align-items: center;
+  margin-right: 2rem;
+}
+
+.navbar .navbar-brand img {
+  height: 28px;
+}
+
+.navbar .navbar-menu {
+  align-self: center;
+}
+
+.navbar .navbar-menu a.navbar-item {
+  font-weight: 500;
+  padding: 0 !important;
+
+  transition: 0.2s;
+}
+
+.navbar .navbar-menu a.navbar-item + a {
+  margin-left: 2rem;
+}
+
+.dropdown-selection {
+  margin-left: 2rem;
+}
+
+.dropdown-selection .navbar-link {
+  padding: 0;
+  margin: 0;
+  width: 80px;
+}
+
+.dropdown-selection .navbar-link:hover {
+  background: none !important;
+}
+
+.dropdown-selection .navbar-link::after {
+  border-color: var(--text-color);
+}
+
+.dropdown-selection .navbar-link:focus {
+  background: none;
+}
+
+.navbar .navbar-menu .navbar-item:hover {
+  background: none;
+  color: var(--primary-color);
+}
+
+.navbar .navbar-menu .navbar-item:focus {
+  background: none !important;
+}
+
+.dropdown-selection .navbar-dropdown {
+  background: var(--body-color);
+}
+
+.dropdown-selection .navbar-dropdown .navbar-item {
+  margin: 0.5rem 0.5rem;
+  padding: 0.7rem 0 !important;
+}
+
+.dropdown-selection .navbar-dropdown {
+  background: var(--body-color) !important;
+}
+
+.dropdown-selection .navbar-dropdown:hover,
+.dropdown-selection .navbar-link {
+  background: inherit !important;
+}
+
+.dropdown-selection .navbar-dropdown:hover {
+  background: var(--body-color) !important;
+}
+
+.navbar-menu .navbar-end img {
+  width: 133.26px !important;
+  height: 40px !important;
+
+  max-height: 50px;
+}
