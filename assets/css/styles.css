@@ -126,8 +126,10 @@ header {
   max-height: 50px;
 }
 
+/*  Hero section */
+
 .hero {
-  position: absolute;
+  margin-top: -74px;
   background-image: url(../images/Background.png);
   background-size: cover;
   background-repeat: no-repeat;
@@ -149,6 +151,8 @@ header {
 .hero-text button {
   margin-top: 2rem;
   background: var(--primary-color);
+  border-radius: 6px;
+
   padding: 0.75rem 2rem;
 
   width: 154px;
@@ -162,3 +166,36 @@ header {
   color: var(--body-color);
   filter: brightness(0.9);
 }
+
+/*  End Hero section */
+
+/*  Clients section */
+.clients {
+  align-items: center;
+  margin-bottom: 4rem;
+}
+
+.clients .client img {
+  height: 28px;
+}
+
+.clients .client img + img {
+  margin-left: 4rem;
+}
+
+.clients .divider-top {
+  margin-bottom: 2.8125rem;
+  background: var(--line-gradient-color);
+  height: 1px;
+}
+
+.clients .divider-bottom {
+  margin-top: 2.8125rem;
+  background: var(--line-gradient-color);
+  height: 1px;
+}
+/*  End Clients section */
+
+/*  Feactures section */
+
+/*  End Feactures section */
