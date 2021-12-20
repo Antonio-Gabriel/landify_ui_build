@@ -365,8 +365,8 @@ header {
   margin-left: 2rem;
 }
 
-.real-history .left .card .card-footer cite span{
-  color: #969BAB;
+.real-history .left .card .card-footer cite span {
+  color: #969bab;
   font-size: 14px;
 }
 
@@ -397,3 +397,62 @@ header {
 }
 
 /* End Real Histories section */
+
+/* Our achievements */
+.achievements {
+  padding: 5rem 0;
+}
+
+.achievements .columns {
+  margin-top: 0;
+}
+
+.achievements .text h2 {
+  font-size: 3rem;
+  font-weight: 800;
+
+  line-height: 4rem;
+  margin-bottom: 0.5rem;
+}
+
+.achievements .text p {
+  font-size: 1.125rem;
+  font-weight: 400;
+
+  font-feature-settings: "salt" on, "liga" off;
+}
+
+.achievements-items .achivement-card {
+  display: flex;
+  align-items: center;
+}
+
+.achievements-items .achivement-card .image {
+  margin-right: 1.5rem;
+}
+
+.achievements-items .achivement-card .image img {
+  width: 32px;
+  height: 32px;
+}
+
+.achievements-items .achivement-card .content {
+  display: flex;
+  flex-direction: column;
+}
+
+.achievements-items .achivement-card .content strong {
+  font-size: 1.75rem;
+  font-weight: 700;
+}
+
+.achievements-items .achivement-card .content span {
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.achievements-items .achivement-card:nth-child(n + 3) {
+  margin-top: 1.5rem;
+}
+
+/* End Our achievements */
