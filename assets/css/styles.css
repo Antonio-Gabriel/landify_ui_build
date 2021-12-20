@@ -197,5 +197,68 @@ header {
 /*  End Clients section */
 
 /*  Feactures section */
+.feactures {
+  padding-top: 0 !important;
+}
+
+.feactures .h-text {
+  max-width: 540px;
+}
+
+.feactures .h-text h2 {
+  font-size: 3rem;
+  font-weight: 800;
+
+  color: var(--text-color);
+}
+
+.feactures .h-text p {
+  font-size: 1.125rem;
+
+  line-height: 32px;
+}
+
+.feactures .column {
+  width: 350px;
+  padding: 0 !important;
+}
+
+.feactures .column .image {
+  margin-bottom: 1.5rem;
+
+  display: flex;
+  justify-content: center;
+}
+
+.feactures .column .image img {
+  width: 2rem;
+  height: 2rem;
+}
+
+.feactures .column .content h3 {
+  font-size: 24px;
+  font-weight: 600;
+
+  margin-bottom: 0.5rem;
+}
+
+.feactures .column .content p {
+  font-size: 1rem;
+  font-weight: 400;
+
+  line-height: 26px;
+}
+
+.feactures .columns {
+  margin-top: 3rem;
+}
+
+.feactures .columns.is-variable.is-4 {
+  column-gap: 1.875rem;
+}
+
+.feactures .column:nth-child(n + 4) {
+  margin-top: 4rem;
+}
 
 /*  End Feactures section */
