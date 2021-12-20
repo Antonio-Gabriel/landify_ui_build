@@ -199,6 +199,7 @@ header {
 /*  Feactures section */
 .feactures {
   padding-top: 0 !important;
+  margin-bottom: 4rem;
 }
 
 .feactures .h-text {
@@ -262,3 +263,137 @@ header {
 }
 
 /*  End Feactures section */
+
+/* Real Histories section */
+.real-history {
+  background-color: var(--content-section-secondary-color);
+
+  padding: 4rem 1.5rem !important;
+}
+
+.real-history header {
+  position: relative;
+}
+
+.real-history header img {
+  position: absolute;
+  top: 0;
+}
+
+.real-history header .text {
+  position: relative;
+  max-width: 505px;
+
+  z-index: 1;
+
+  padding-top: 3.5rem;
+  padding-left: 5.9375rem;
+}
+
+.real-history header .text h2 {
+  font-size: 3rem;
+  font-weight: 800;
+
+  line-height: 4rem;
+  margin-bottom: 0.5rem;
+}
+
+.real-history header .text p {
+  font-size: 1.125rem;
+  font-weight: 400;
+
+  font-feature-settings: "salt" on, "liga" off;
+}
+
+.real-history .columns {
+  margin-top: 0;
+}
+
+.real-history .left .card {
+  width: 350px;
+
+  margin-top: 1.5rem;
+  margin-left: 200px;
+
+  padding: 2rem;
+
+  box-shadow: 0px 10px 20px rgba(41, 41, 42, 0.07) !important;
+  border-radius: 8px !important;
+}
+
+.real-history .left .card .card-header {
+  box-shadow: none;
+}
+
+.real-history .left .card .card-header img {
+  width: 140px;
+  height: 40px;
+}
+
+.real-history .left .card .card-content {
+  padding: 2rem 0;
+}
+
+.real-history .left .card .card-content article {
+  display: flex;
+
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.real-history .left .card .card-content article img {
+  width: 15.93px;
+  height: 14px;
+
+  align-self: flex-start;
+}
+
+.real-history .left .card .card-content article p {
+  font-size: 1.125rem;
+
+  margin-left: 1rem;
+}
+
+.real-history .left .card .card-footer {
+  border-top: 0;
+}
+
+.real-history .left .card .card-footer cite {
+  display: flex;
+  flex-direction: column;
+
+  margin-left: 2rem;
+}
+
+.real-history .left .card .card-footer cite span{
+  color: #969BAB;
+  font-size: 14px;
+}
+
+/* Right cards */
+
+.real-history .right-cards .column {
+  padding: 0 !important;
+}
+
+.real-history .right-cards .card {
+  width: 445px !important;
+
+  margin-top: 1.5rem;
+  margin-left: 0 !important;
+
+  padding: 2rem;
+
+  box-shadow: 0px 10px 20px rgba(41, 41, 42, 0.07) !important;
+  border-radius: 8px !important;
+}
+
+.real-history .right-cards .column:last-child .card {
+  width: 350px !important;
+}
+
+.real-history .right-cards .column:first-child {
+  margin-top: 6rem;
+}
+
+/* End Real Histories section */
